@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col md:flex-row justify-between items-center mb-10 border-b border-gray-800 pb-6">
             <h3 class="text-white text-xl font-bold mb-4 md:mb-0 flex items-center">
-                <i data-feather="globe" class="w-5 h-5 mr-2 text-blue-500"></i>
+                <i data-feather="map-pin" class="w-5 h-5 mr-2 text-blue-500"></i>
                 Serving Patients Across India
             </h3>
             
@@ -27,22 +27,23 @@
             const icon = document.getElementById('locationToggleIcon');
             const buttonText = toggle.querySelector('span');
             
-            toggle.addEventListener('click', () => {
-                grid.classList.toggle('hidden');
-                
-                // Small delay to allow display:block to apply before opacity transition
-                if (!grid.classList.contains('hidden')) {
-                    setTimeout(() => {
-                        grid.classList.remove('opacity-0', 'translate-y-4');
-                    }, 10);
-                    buttonText.textContent = "Hide Locations";
-                    icon.style.transform = "rotate(180deg)";
-                } else {
-                    grid.classList.add('opacity-0', 'translate-y-4');
-                    buttonText.textContent = "Show Locations";
-                    icon.style.transform = "rotate(0deg)";
-                }
-            });
+            if(toggle && grid && icon) {
+                toggle.addEventListener('click', () => {
+                    grid.classList.toggle('hidden');
+                    
+                    if (!grid.classList.contains('hidden')) {
+                        setTimeout(() => {
+                            grid.classList.remove('opacity-0', 'translate-y-4');
+                        }, 10);
+                        buttonText.textContent = "Hide Locations";
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        grid.classList.add('opacity-0', 'translate-y-4');
+                        buttonText.textContent = "Show Locations";
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                });
+            }
         });
     </script>
 </section>
