@@ -5,12 +5,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="https://www.impactorthocenter.com/photos/favicon.png" />
-    <title>Best Orthopedic Hospital in Nizampet | Impact Ortho Centre</title>
-    <meta name="description" content="Looking for the Best Orthopedic Hospital in Nizampet? Impact Ortho Centre in Hyderabad provides world-class robotic joint replacement for patients from Nizampet." />
-    <meta name="keywords" content="best orthopedic hospital in nizampet, orthopedic surgeon for nizampet patients, knee replacement nizampet, hip replacement nizampet" />
+    
+    
+    
 
 
     <?php include "components/header-link.php"; ?>
+
+    <title>Best Orthopedic Hospital in Nizampet | Impact Ortho Centre</title>
+    <meta name="description" content="Looking for the Best Orthopedic Hospital in Nizampet? Impact Ortho Centre provides world-class robotic joint replacement and orthopedic care in Nizampet..." />
+    <meta name="keywords" content="best orthopedic hospital in nizampet, orthopedic surgeon for nizampet patients, knee replacement nizampet, hip replacement nizampet" />
+    <link rel="canonical" href="https://www.impactorthocenter.com/best-orthopedic-hospital-in-nizampet.php" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Orthopedic Hospital in Nizampet | Impact Ortho Centre" />
+    <meta property="og:description" content="Looking for the Best Orthopedic Hospital in Nizampet? Impact Ortho Centre provides world-class robotic joint replacement and orthopedic care in Nizampet..." />
+    <meta property="og:url" content="https://www.impactorthocenter.com/best-orthopedic-hospital-in-nizampet.php" />
+    <meta property="og:type" content="hospital" />
+    <meta property="og:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+    <meta property="og:site_name" content="Impact Ortho Centre" />
+    <meta property="og:locale" content="en_IN" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Best Orthopedic Hospital in Nizampet | Impact Ortho Centre" />
+    <meta name="twitter:description" content="Looking for the Best Orthopedic Hospital in Nizampet? Impact Ortho Centre provides world-class robotic joint replacement and orthopedic care in Nizampet..." />
+    <meta name="twitter:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-TG" />
+    <meta name="geo.placename" content="Hyderabad" />
+    <meta name="geo.position" content="17.415639;78.413217" />
+    <meta name="ICBM" content="17.415639, 78.413217" />
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Hospital",
+    "name": "Impact Ortho Centre",
+    "image": "https://impactorthocenter.com/photos/logo-1-impact.webp",
+    "@id": "https://www.impactorthocenter.com/#hospital",
+    "url": "https://www.impactorthocenter.com/",
+    "telephone": "+919494559848",
+    "priceRange": "$$",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Apollo Hospitals, Rd Number 72, opposite Bharatiya Vidya Bhavan School, Film Nagar",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "postalCode": "500033",
+        "addressCountry": "IN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 17.415639,
+        "longitude": 78.413217
+    },
+    "areaServed": [
+        {
+            "@type": "AdministrativeArea",
+            "name": "Nizampet"
+        },
+        {
+            "@type": "City",
+            "name": "Hyderabad"
+        }
+    ],
+    "department": {
+        "@type": "MedicalOrganization",
+        "name": "Orthopedics Department"
+    },
+    "availableService": {
+        "@type": "MedicalProcedure",
+        "name": "Robotic Joint Replacement"
+    }
+}
+    </script>
+    
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">

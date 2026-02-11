@@ -1,5 +1,8 @@
 import os
 import re
+import json
+
+base_url = "https://www.impactorthocenter.com/"
 
 states = [
     "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", 
@@ -20,31 +23,121 @@ hyderabad_areas = [
 def create_slug(text):
     return text.lower().replace(" ", "-")
 
+def get_seo_head(location_name, slug):
+    canonical_url = f"{base_url}best-orthopedic-hospital-in-{slug}.php"
+    title = f"Best Orthopedic Hospital in {location_name} | Impact Ortho Centre"
+    description = f"Looking for the Best Orthopedic Hospital in {location_name}? Impact Ortho Centre in Hyderabad provides world-class robotic joint replacement for patients from {location_name}."
+    
+    # Adjust description for Hyderabad locations
+    if location_name == "Hyderabad" or location_name in hyderabad_areas:
+        description = f"Looking for the Best Orthopedic Hospital in {location_name}? Impact Ortho Centre provides world-class robotic joint replacement and orthopedic care in {location_name}, Hyderabad."
+
+    keywords = f"best orthopedic hospital in {location_name.lower()}, orthopedic surgeon for {location_name.lower()} patients, knee replacement {location_name.lower()}, hip replacement {location_name.lower()}"
+    
+    # Ensure title length (approx check)
+    if len(title) > 60:
+        title = f"Best Hospital in {location_name} | Impact Ortho" # Fallback if too long
+        
+    # Ensure description length
+    if len(description) > 155:
+        description = description[:152] + "..."
+
+    # Schema
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "Hospital",
+        "name": "Impact Ortho Centre",
+        "image": "https://impactorthocenter.com/photos/logo-1-impact.webp",
+        "@id": "https://www.impactorthocenter.com/#hospital",
+        "url": base_url,
+        "telephone": "+919494559848",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Apollo Hospitals, Rd Number 72, opposite Bharatiya Vidya Bhavan School, Film Nagar",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "postalCode": "500033",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 17.415639,
+            "longitude": 78.413217
+        },
+        "areaServed": [
+            {
+                "@type": "AdministrativeArea",
+                "name": location_name
+            },
+            {
+                "@type": "City",
+                "name": "Hyderabad"
+            }
+        ],
+        "department": {
+            "@type": "MedicalOrganization",
+            "name": "Orthopedics Department"
+        },
+        "availableService": {
+            "@type": "MedicalProcedure",
+            "name": "Robotic Joint Replacement"
+        }
+    }
+    
+    head_content = f"""
+    <title>{title}</title>
+    <meta name="description" content="{description}" />
+    <meta name="keywords" content="{keywords}" />
+    <link rel="canonical" href="{canonical_url}" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="{description}" />
+    <meta property="og:url" content="{canonical_url}" />
+    <meta property="og:type" content="hospital" />
+    <meta property="og:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+    <meta property="og:site_name" content="Impact Ortho Centre" />
+    <meta property="og:locale" content="en_IN" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{title}" />
+    <meta name="twitter:description" content="{description}" />
+    <meta name="twitter:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-TG" />
+    <meta name="geo.placename" content="Hyderabad" />
+    <meta name="geo.position" content="17.415639;78.413217" />
+    <meta name="ICBM" content="17.415639, 78.413217" />
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {json.dumps(schema, indent=4)}
+    </script>
+    """
+    return head_content
+
 def prepare_content(template, location_name, is_hyderabad_context=False):
     content = template
+    slug = create_slug(location_name)
     
-    # Replace Title
-    content = re.sub(
-        r'<title>.*?</title>', 
-        f'<title>Best Orthopedic Hospital in {location_name} | Impact Ortho Centre</title>', 
-        content
-    )
+    # Generate new head content
+    new_head = get_seo_head(location_name, slug)
     
-    # Replace Meta Description
-    content = re.sub(
-        r'<meta name="description"\s+content=".*?" />',
-        f'<meta name="description" content="Looking for the Best Orthopedic Hospital in {location_name}? Impact Ortho Centre in Hyderabad provides world-class robotic joint replacement for patients from {location_name}." />',
-        content,
-        flags=re.DOTALL
-    )
+    # Remove existing title, meta description, keywords
+    content = re.sub(r'<title>.*?</title>', '', content)
+    content = re.sub(r'<meta name="description".*?/>', '', content, flags=re.DOTALL)
+    content = re.sub(r'<meta name="keywords".*?/>', '', content, flags=re.DOTALL)
     
-    # Replace Keywords
-    content = re.sub(
-        r'<meta name="keywords"\s+content=".*?" />',
-        f'<meta name="keywords" content="best orthopedic hospital in {location_name.lower()}, orthopedic surgeon for {location_name.lower()} patients, knee replacement {location_name.lower()}, hip replacement {location_name.lower()}" />',
-        content,
-        flags=re.DOTALL
-    )
+    # Inject new head content before </head>
+    if '</head>' in content:
+        content = content.replace('</head>', f'{new_head}\n</head>')
+    else:
+        # Fallback if no </head> found (unlikely)
+        pass
     
     # Replace H1
     content = content.replace("Leading Orthopedic Hospital in India", f"Best Orthopedic Hospital in {location_name}")
