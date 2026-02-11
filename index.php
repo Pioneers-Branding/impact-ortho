@@ -11,6 +11,70 @@
     <meta name="keywords"
         content="best orthopedic hospital in india, top 10 orthopedic hospital in india, top orthopedic hospital in india, orthopedic hospital in india, orthopedic best hospital in india" />
 
+    <link rel="canonical" href="https://www.impactorthocenter.com/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Best Orthopedic Hospital in India | Impact Ortho Centre" />
+    <meta property="og:description"
+        content="Seeking advanced care at a trusted Orthopedic Hospital in India? Impact Ortho Centre offers expert surgeons, modern facilities & personalized treatment." />
+    <meta property="og:url" content="https://www.impactorthocenter.com/" />
+    <meta property="og:type" content="hospital" />
+    <meta property="og:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+    <meta property="og:site_name" content="Impact Ortho Centre" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Best Orthopedic Hospital in India | Impact Ortho Centre" />
+    <meta name="twitter:description"
+        content="Seeking advanced care at a trusted Orthopedic Hospital in India? Impact Ortho Centre offers expert surgeons, modern facilities & personalized treatment." />
+    <meta name="twitter:image" content="https://impactorthocenter.com/photos/logo-1-impact.webp" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-TG" />
+    <meta name="geo.placename" content="Hyderabad" />
+    <meta name="geo.position" content="17.415639;78.413217" />
+    <meta name="ICBM" content="17.415639, 78.413217" />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Hospital",
+        "name": "Impact Ortho Centre",
+        "image": "https://impactorthocenter.com/photos/logo-1-impact.webp",
+        "@id": "https://www.impactorthocenter.com/#hospital",
+        "url": "https://www.impactorthocenter.com/",
+        "telephone": "+919494559848",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Apollo Hospitals, Rd Number 72, opposite Bharatiya Vidya Bhavan School, Film Nagar",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "postalCode": "500033",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 17.415639,
+            "longitude": 78.413217
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "India"
+        },
+        "department": {
+            "@type": "MedicalOrganization",
+            "name": "Orthopedics Department"
+        },
+        "availableService": {
+            "@type": "MedicalProcedure",
+            "name": "Robotic Joint Replacement"
+        }
+    }
+    </script>
 
     <?php include "components/header-link.php"; ?>
 </head>
@@ -1706,7 +1770,7 @@
     <!-- Footer -->
     <?php include "components/footer.php"; ?>
 
-    
+
 </body>
 
 </html>
