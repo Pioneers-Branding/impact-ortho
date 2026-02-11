@@ -12,6 +12,7 @@
         content="best robotic knee replacement in india, robotic knee replacement in india, robotic knee replacement surgery in india, robotic surgery for knee replacement in india" />
 
     
+    <?php include "components/header-link.php"; ?>
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">

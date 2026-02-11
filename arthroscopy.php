@@ -19,6 +19,7 @@
 
 
     
+    <?php include "components/header-link.php"; ?>
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">

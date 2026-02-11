@@ -12,12 +12,7 @@
         content="best orthopedic hospital in india, top 10 orthopedic hospital in india, top orthopedic hospital in india, orthopedic hospital in india, orthopedic best hospital in india" />
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://unpkg.com/feather-icons"></script>
+    <?php include "components/header-link.php"; ?>
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">
