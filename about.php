@@ -265,7 +265,7 @@
                             <p class="text-blue-600 font-medium mb-3">Senior Robotic Joint Replacement Surgeon</p>
                             <p class="text-gray-600 text-sm mb-6">Expert in Robotic Knee & Hip Replacement with 20+
                                 years of experience.</p>
-                            <a href="doctors/dr-ratnakar-rao.php"
+                            <a href="doctor-detail.php"
                                 class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors">
                                 View Profile
                                 <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>

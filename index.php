@@ -423,7 +423,7 @@
                 <!-- Conditions Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     <!-- Knee Pain -->
-                    <a href="services/knee-pain.php" class="block group">
+                    <a href="knee-pain.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -447,7 +447,7 @@
                         </div>
                     </a>
                     <!-- Hip Pain -->
-                    <a href="services/total-hip-replacement.php" class="block group">
+                    <a href="total-hip-replacement.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -471,7 +471,7 @@
                         </div>
                     </a>
                     <!-- Shoulder Pain -->
-                    <a href="services/shoulder-pain.php" class="block group">
+                    <a href="shoulder-pain.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -495,7 +495,7 @@
                         </div>
                     </a>
                     <!-- Back Pain -->
-                    <a href="services/back-pain.php" class="block group">
+                    <a href="back-pain.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -519,7 +519,7 @@
                         </div>
                     </a>
                     <!-- Foot & Ankle Pain -->
-                    <a href="services/foot-ankle-pain.php" class="block group">
+                    <a href="foot-ankle-pain.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -544,7 +544,7 @@
                         </div>
                     </a>
                     <!-- Arthritis -->
-                    <a href="services/arthritis.php" class="block group">
+                    <a href="arthritis.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -568,7 +568,7 @@
                         </div>
                     </a>
                     <!-- Neck Pain -->
-                    <a href="services/neck-pain.php" class="block group">
+                    <a href="neck-pain.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -592,7 +592,7 @@
                         </div>
                     </a>
                     <!-- Fractures -->
-                    <a href="services/trauma-surgery.php" class="block group">
+                    <a href="trauma-surgery.php" class="block group">
                         <div
                             class="relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 h-64">
                             <div class="absolute inset-0">
@@ -619,7 +619,7 @@
 
                 <!-- CTA -->
                 <div class="text-center mt-12">
-                    <a href="services/general-orthopedics.php"
+                    <a href="services.php"
                         class="inline-flex items-center px-8 py-4 bg-[#1E97D9] text-white font-semibold rounded-xl hover:bg-blue-600 transition-all duration-300 transform hover:scale-105">
                         View All Conditions & Treatments
                         <i data-feather="arrow-right" class="w-5 h-5 ml-2"></i>
@@ -667,7 +667,7 @@
                                 <div class="flex items-center text-sm text-gray-600"><i data-feather="check"
                                         class="w-4 h-4 mr-2 text-green-500 flex-shrink-0"></i>Less Pain & Scarring</div>
                             </div>
-                            <a href="services/robotic-knee-replacement.php"
+                            <a href="robotic-knee-replacement.php"
                                 class="flex items-center justify-between text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
                                 <span>View Details</span>
                                 <i data-feather="arrow-right"
@@ -697,7 +697,7 @@
                                 <div class="flex items-center text-sm text-gray-600"><i data-feather="check"
                                         class="w-4 h-4 mr-2 text-green-500 flex-shrink-0"></i>Long-term Durability</div>
                             </div>
-                            <a href="services/shoulder-replacement.php"
+                            <a href="shoulder-replacement.php"
                                 class="flex items-center justify-between text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
                                 <span>View Details</span>
                                 <i data-feather="arrow-right"
@@ -724,7 +724,7 @@
                                 <div class="flex items-center text-sm text-gray-600"><i data-feather="check"
                                         class="w-4 h-4 mr-2 text-green-500 flex-shrink-0"></i>Quick Mobilization</div>
                             </div>
-                            <a href="services/total-hip-replacement.php"
+                            <a href="total-hip-replacement.php"
                                 class="flex items-center justify-between text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
                                 <span>View Details</span>
                                 <i data-feather="arrow-right"
@@ -751,7 +751,7 @@
                                 <div class="flex items-center text-sm text-gray-600"><i data-feather="check"
                                         class="w-4 h-4 mr-2 text-green-500 flex-shrink-0"></i>Strength & Mobility</div>
                             </div>
-                            <a href="services/physiotherapy-rehabilitation.php"
+                            <a href="physiotherapy-rehabilitation.php"
                                 class="flex items-center justify-between text-blue-600 font-medium group-hover:text-blue-700 transition-colors">
                                 <span>View Details</span>
                                 <i data-feather="arrow-right"
@@ -1524,7 +1524,7 @@
                             <p class="text-blue-600 font-medium mb-3">Senior Robotic Joint Replacement Surgeon</p>
                             <p class="text-gray-600 text-sm mb-6">Expert in Robotic Knee & Hip Replacement with 20+
                                 years of experience.</p>
-                            <a href="doctors/dr-ratnakar-rao.php"
+                            <a href="doctor-detail.php"
                                 class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors">
                                 View Profile
                                 <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
