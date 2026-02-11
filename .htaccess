@@ -1,18 +1,12 @@
 # Force HTTPS (optional if you use SSL)
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
 
-RewriteCond %{HTTP_HOST} ^impactorthocenter\.com [NC]
-RewriteRule ^(.*)$ https://www.impactorthocenter.com/$1 [R=301,L]
-
-# --- WordPress Blog Redirect ---
-RewriteCond %{REQUEST_URI} ^/blog/
-RewriteRule ^ - [L]
-
-# --- React Single Page App ---
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.html [L]
+# To externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=302,L,NE]
 
 Redirect 301 '/page/2/' 'https://www.impactorthocenter.com/' 
