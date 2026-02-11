@@ -5,11 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="https://www.impactorthocenter.com/photos/favicon.png" />
-    <title>Best Orthopedic Hospital in India | Impact Ortho Centre</title>
-    <meta name="description"
-        content="Seeking advanced care at a trusted Orthopedic Hospital in India? Impact Ortho Centre offers expert surgeons, modern facilities & personalized treatment." />
-    <meta name="keywords"
-        content="best orthopedic hospital in india, top 10 orthopedic hospital in india, top orthopedic hospital in india, orthopedic hospital in india, orthopedic best hospital in india" />
+    <title>Best Orthopedic Hospital in Mizoram | Impact Ortho Centre</title>
+    <meta name="description" content="Looking for the Best Orthopedic Hospital in Mizoram? Impact Ortho Centre in Hyderabad provides world-class robotic joint replacement for patients from Mizoram." />
+    <meta name="keywords" content="best orthopedic hospital in mizoram, orthopedic surgeon for mizoram patients, knee replacement mizoram, hip replacement mizoram" />
 
 
     <?php include "components/header-link.php"; ?>
@@ -46,7 +44,7 @@
                                 Medical Tourism Excellence
                             </div>
                             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                                Leading Orthopedic Hospital in India | <span
+                                Best Orthopedic Hospital in Mizoram | <span
                                     class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Impact
                                     Ortho Centre</span>
                             </h1>
@@ -54,7 +52,7 @@
 
                         <div class="space-y-4">
                             <p class="text-xl text-gray-700 leading-relaxed">
-                                Apollo Hospitals Hyderabad, recognised as one of the Best Orthopedic Hospitals in India,
+                                Apollo Hospitals Hyderabad, chosen by hundreds of patients from Mizoram as the Best Orthopedic Hospital,
                                 is led by renowned orthopedic specialist Dr. Ratnakar Rao. With advanced technology,
                                 expert care, and proven results, we provide trusted treatment for joint, bone, and
                                 sports injury conditions.
