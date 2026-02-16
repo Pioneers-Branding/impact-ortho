@@ -170,6 +170,8 @@
 
     <?php include "components/patient-services-cta.php"; ?>
 
+    <?php include "components/trauma-surgery-location-links.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
 </body>

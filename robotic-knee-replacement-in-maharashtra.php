@@ -301,6 +301,8 @@
 
     <?php include "components/patient-services-cta.php"; ?>
 
+    <?php include "components/robotic-knee-location-links.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     
