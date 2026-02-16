@@ -1,0 +1,229 @@
+<section class="bg-gray-900 py-10 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-10 border-b border-gray-800 pb-6">
+            <h3 class="text-white text-xl font-bold mb-4 md:mb-0 flex items-center">
+                <i data-feather="map-pin" class="w-5 h-5 mr-2 text-blue-500"></i>
+                Robotic Knee Replacement Across India
+            </h3>
+
+            <button id="roboticLocationToggle"
+                class="flex items-center space-x-2 bg-white/10 hover:bg-white/20 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm border border-white/10">
+                <span>Show Locations</span>
+                <i data-feather="chevron-down" id="roboticLocationToggleIcon"
+                    class="w-4 h-4 transition-transform duration-300"></i>
+            </button>
+        </div>
+
+        <div id="roboticLocationGrid" class="hidden transition-all duration-500 opacity-0 transform translate-y-4">
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-2">
+                <li class="mb-2"><a href="robotic-knee-replacement-in-andhra-pradesh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Andhra Pradesh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-arunachal-pradesh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Arunachal Pradesh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-assam.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Assam</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-bihar.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Bihar</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-chhattisgarh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Chhattisgarh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-goa.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Goa</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-gujarat.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Gujarat</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-haryana.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Haryana</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-himachal-pradesh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Himachal Pradesh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-jharkhand.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Jharkhand</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-karnataka.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Karnataka</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-kerala.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Kerala</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-madhya-pradesh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Madhya Pradesh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-maharashtra.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Maharashtra</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-manipur.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Manipur</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-meghalaya.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Meghalaya</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-mizoram.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Mizoram</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-nagaland.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Nagaland</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-odisha.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Odisha</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-punjab.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Punjab</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-rajasthan.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Rajasthan</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-sikkim.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Sikkim</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-tamil-nadu.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Tamil Nadu</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-telangana.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Telangana</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-tripura.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Tripura</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-uttar-pradesh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Uttar Pradesh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-uttarakhand.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Uttarakhand</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-west-bengal.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            West Bengal</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-delhi.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Delhi</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-jammu-and-kashmir.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Jammu and Kashmir</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-ladakh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Ladakh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-chandigarh.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Chandigarh</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-puducherry.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Puducherry</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-lakshadweep.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Lakshadweep</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-andaman-and-nicobar-islands.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Andaman and Nicobar Islands</span></a></li>
+                <li class="mb-2"><a href="robotic-knee-replacement-in-dadra-and-nagar-haveli-and-daman-and-diu.php"
+                        class="text-gray-400 hover:text-white text-sm transition-colors text-left flex items-start"><i
+                            data-feather="map-pin"
+                            class="w-3 h-3 mt-1 mr-2 text-blue-500 flex-shrink-0"></i><span>Robotic Knee Replacement in
+                            Dadra and Nagar Haveli and Daman and Diu</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggle = document.getElementById('roboticLocationToggle');
+            const grid = document.getElementById('roboticLocationGrid');
+            const icon = document.getElementById('roboticLocationToggleIcon');
+            const buttonText = toggle.querySelector('span');
+
+            if (toggle && grid && icon) {
+                toggle.addEventListener('click', () => {
+                    grid.classList.toggle('hidden');
+
+                    if (!grid.classList.contains('hidden')) {
+                        setTimeout(() => {
+                            grid.classList.remove('opacity-0', 'translate-y-4');
+                        }, 10);
+                        buttonText.textContent = "Hide Locations";
+                        icon.style.transform = "rotate(180deg)";
+                    } else {
+                        grid.classList.add('opacity-0', 'translate-y-4');
+                        buttonText.textContent = "Show Locations";
+                        icon.style.transform = "rotate(0deg)";
+                    }
+                });
+            }
+        });
+    </script>
+</section>

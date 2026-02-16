@@ -572,6 +572,10 @@
 
     <!-- Footer -->
     <!-- Footer -->
+    <?php include "components/arthritis-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     

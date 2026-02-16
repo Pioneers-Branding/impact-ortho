@@ -535,6 +535,10 @@
     </main>
 
     <!-- Footer -->
+    <?php include "components/hand-wrist-pain-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     

@@ -510,6 +510,10 @@
     </main>
 
     <!-- Footer -->
+    <?php include "components/tennis-elbow-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     

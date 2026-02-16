@@ -11,7 +11,7 @@
     <meta name="keywords"
         content="best robotic knee replacement in india, robotic knee replacement in india, robotic knee replacement surgery in india, robotic surgery for knee replacement in india" />
 
-    
+
     <?php include "components/header-link.php"; ?>
 </head>
 
@@ -479,9 +479,11 @@
         </section>
     </main>
 
+    <?php include "components/robotic-knee-location-links.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
-    
+
 </body>
 
 </html>

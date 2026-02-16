@@ -482,6 +482,10 @@
     </main>
 
     <!-- Footer -->
+    <?php include "components/total-hip-replacement-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     

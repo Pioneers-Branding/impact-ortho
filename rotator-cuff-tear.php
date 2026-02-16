@@ -509,6 +509,10 @@
     </main>
 
     <!-- Footer -->
+    <?php include "components/rotator-cuff-tear-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     

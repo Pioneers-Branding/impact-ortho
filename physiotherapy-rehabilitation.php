@@ -516,6 +516,10 @@
     </main>
 
     <!-- Footer -->
+    <?php include "components/physiotherapy-rehabilitation-location-links.php"; ?>
+
+    <?php include "components/patient-services-cta.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
     
