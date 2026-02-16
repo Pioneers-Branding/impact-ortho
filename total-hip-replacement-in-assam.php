@@ -104,7 +104,7 @@
                     </div>
                     <div class="hero-image relative">
                         <div class="relative rounded-2xl overflow-hidden shadow-2xl">
-                            <img src="https://impactorthocenter.com/photos/logo-1-impact.webp" alt="Total Hip Replacement in Assam" class="w-full h-auto object-cover" />
+                            <img src="https://impactorthocenter.com/photos/Hip-Replacement.webp" alt="Total Hip Replacement in Assam" class="w-full h-auto object-cover" />
                             <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                         </div>
                     </div>
