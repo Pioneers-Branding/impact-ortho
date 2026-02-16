@@ -570,9 +570,13 @@
         </section>
     </main>
 
-    <?php include "components/avascular-necrosis-location-links.php"; ?>
+    
+
+    
 
     <?php include "components/patient-services-cta.php"; ?>
+
+    <?php include "components/avascular-necrosis-location-links.php"; ?>
 
     <?php include "components/footer.php"; ?>
 

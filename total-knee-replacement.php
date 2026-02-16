@@ -267,9 +267,13 @@
     </main>
 
     <!-- Footer -->
-    <?php include "components/total-knee-replacement-location-links.php"; ?>
+    
+
+    
 
     <?php include "components/patient-services-cta.php"; ?>
+
+    <?php include "components/total-knee-replacement-location-links.php"; ?>
 
     <?php include "components/footer.php"; ?>
 

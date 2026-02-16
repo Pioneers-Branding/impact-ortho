@@ -1767,9 +1767,11 @@
     <!-- Footer -->
     <!-- Footer -->
     <!-- Location Links -->
-    <?php include "components/location-links.php"; ?>
+    
 
     <!-- Footer -->
+    <?php include "components/location-links.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
 

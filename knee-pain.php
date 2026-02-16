@@ -483,9 +483,13 @@
         </section>
     </main>
 
-    <?php include "components/knee-pain-location-links.php"; ?>
+    
+
+    
 
     <?php include "components/patient-services-cta.php"; ?>
+
+    <?php include "components/knee-pain-location-links.php"; ?>
 
     <?php include "components/footer.php"; ?>
 
