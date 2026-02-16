@@ -1586,7 +1586,7 @@
                         <div class="p-6">
                             <h3 class="text-xl font-bold text-gray-900 mb-1">Dr. Ratnakar Rao</h3>
                             <p class="text-blue-600 font-medium mb-3">Senior Robotic Joint Replacement Surgeon</p>
-                            <p class="text-gray-600 text-sm mb-6">Expert in Robotic Knee & Hip Replacement with 20+
+                            <p class="text-gray-600 text-sm mb-6">Expert in Robotic Knee & Hip Replacement with 24+
                                 years of experience.</p>
                             <a href="doctor-detail.php"
                                 class="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors">
