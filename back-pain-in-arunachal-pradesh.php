@@ -173,8 +173,6 @@
 
     <?php include "components/patient-services-cta.php"; ?>
 
-    <?php include "components/back-pain-location-links.php"; ?>
-
     <?php include "components/footer.php"; ?>
 
 </body>

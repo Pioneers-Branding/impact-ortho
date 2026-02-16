@@ -1779,8 +1779,6 @@
 
     <?php include "components/patient-services-cta.php"; ?>
 
-    <?php include "components/location-links.php"; ?>
-
     <?php include "components/footer.php"; ?>
 
     

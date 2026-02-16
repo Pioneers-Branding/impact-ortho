@@ -174,8 +174,6 @@
 
     <?php include "components/patient-services-cta.php"; ?>
 
-    <?php include "components/arthroscopy-location-links.php"; ?>
-
     <?php include "components/footer.php"; ?>
 
 </body>
