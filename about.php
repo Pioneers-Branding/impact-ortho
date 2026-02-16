@@ -75,7 +75,7 @@
                             class="w-16 h-16 bg-gradient-to-br from-[#1E97D9] to-[#91EFF8] rounded-full flex items-center justify-center mx-auto mb-4">
                             <i data-feather="award" class="w-8 h-8 text-white"></i>
                         </div>
-                        <div class="text-3xl font-bold text-gray-900 mb-2">20+</div>
+                        <div class="text-3xl font-bold text-gray-900 mb-2">24</div>
                         <div class="text-gray-600">Years Experience</div>
                     </div>
                     <!-- Stat 2 -->

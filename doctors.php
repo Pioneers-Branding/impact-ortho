@@ -73,7 +73,7 @@
                                 class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                                 <div class="flex items-center text-white space-x-2 mb-2">
                                     <i data-feather="award" class="w-5 h-5 text-yellow-400"></i>
-                                    <span class="font-semibold">24+ Years Experience</span>
+                                    <span class="font-semibold">24 Years Experience</span>
                                 </div>
                                 <div class="flex items-center text-white/90 space-x-2">
                                     <i data-feather="map-pin" class="w-5 h-5"></i>

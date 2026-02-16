@@ -188,7 +188,7 @@
                     <!-- Stat 2 -->
                     <div class="text-center">
                         <div class="relative inline-block">
-                            <div class="text-5xl font-bold text-[#1E97D9]">20+</div>
+                            <div class="text-5xl font-bold text-[#1E97D9]">24</div>
                             <i data-feather="award"
                                 class="absolute -top-2 -right-6 w-6 h-6 text-[#1E97D9] opacity-30"></i>
                         </div>
@@ -230,7 +230,7 @@
                                 Pioneers in Robotic Joint Replacement
                             </h2>
                             <h3 class="text-xl text-gray-700 font-medium mb-6">
-                                20+ Years of Excellence | 5000+ Successful Surgeries
+                                24 Years of Excellence | 5000+ Successful Surgeries
                             </h3>
                         </div>
                         <div class="space-y-4 text-gray-600 leading-relaxed">
