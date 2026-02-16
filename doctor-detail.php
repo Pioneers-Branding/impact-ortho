@@ -10,7 +10,7 @@
 
 
 
-        content="Meet Dr. Ratnakar Rao, Pioneer in Robotic Joint Replacement Surgery. 24+ years experience, 5000+ successful surgeries. Certified Mako Robotic Surgeon at Apollo Hospitals Hyderabad." />
+        content="Meet Dr. Ratnakar Rao, Pioneer in Robotic Joint Replacement Surgery. 24 years experience, 5000+ successful surgeries. Certified Mako Robotic Surgeon at Apollo Hospitals Hyderabad." />
 
 
 
@@ -60,7 +60,7 @@
                                         <i data-feather="award" class="w-6 h-6 text-white"></i>
                                     </div>
                                     <div>
-                                        <div class="text-2xl font-bold text-gray-900">24+</div>
+                                        <div class="text-2xl font-bold text-gray-900">24</div>
                                         <div class="text-sm text-gray-600">Years Experience</div>
                                     </div>
                                 </div>

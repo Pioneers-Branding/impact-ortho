@@ -152,7 +152,7 @@
                             <i data-feather="clock" class="w-6 h-6 text-blue-600"></i>
                         </div>
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Long-term Solution</h3>
-                        <p class="text-gray-600">Modern implants can last 15-20 years with proper care</p>
+                        <p class="text-gray-600">Modern implants can last 15-24 years with proper care</p>
                     </div>
                     <div
                         class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow benefit-card">

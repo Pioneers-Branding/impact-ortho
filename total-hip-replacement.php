@@ -152,7 +152,7 @@
                             <i data-feather="award" class="w-6 h-6 text-blue-600"></i>
                         </div>
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Long-term Durability</h3>
-                        <p class="text-gray-600">Modern implants can last 20+ years with proper care and activity
+                        <p class="text-gray-600">Modern implants can last 24 years with proper care and activity
                             modification</p>
                     </div>
                 </div>
