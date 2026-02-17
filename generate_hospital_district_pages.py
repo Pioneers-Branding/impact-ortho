@@ -84,11 +84,28 @@ def generate_district_pages():
             
             # Add District Links Component explicitly to District Page
             component_include = f'<?php include "components/hospital-districts-{state_slug}.php"; ?>'
+            
+            # Start of State Link addition
+            state_link_html = f'<div class="text-center mt-4"><a href="{state_filename}" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in {state} &rarr;</a></div>'
+            # End of State Link addition
+            
             if component_include not in new_content:
                 target_str = '<?php include "components/footer.php"; ?>'
                 if target_str in new_content:
-                    new_content = new_content.replace(target_str, f"{component_include}\n\n    {target_str}")
-            
+                    # Append state link after component include but before footer if needed, or inside component?
+                    # Since component is separate file, better to append HTML or modify component generator.
+                    # But component is shared across state. State page uses it too.
+                    # If I put "Back to State" in component, state page will have "Back to State" link to itself?
+                    # So better to add it only in District pages.
+                    
+                    # Inserting component AND the state link
+                    new_content = new_content.replace(target_str, f"{component_include}\n{state_link_html}\n\n    {target_str}")
+            else:
+                # If component is already there (from previous run), we still want the link?
+                # But previous run didn't add the link.
+                # So we should force replace component include + link
+                 new_content = new_content.replace(component_include, f"{component_include}\n{state_link_html}")
+
             with open(district_filename, 'w') as f:
                 f.write(new_content)
             

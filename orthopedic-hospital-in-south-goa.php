@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-goa.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-goa.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Goa &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 

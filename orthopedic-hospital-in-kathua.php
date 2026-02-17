@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-jammu-and-kashmir.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-jammu-and-kashmir.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Jammu and Kashmir &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 

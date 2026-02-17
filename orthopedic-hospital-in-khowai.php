@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-tripura.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-tripura.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Tripura &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 

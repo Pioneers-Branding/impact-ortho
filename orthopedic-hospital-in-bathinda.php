@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-punjab.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-punjab.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Punjab &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 

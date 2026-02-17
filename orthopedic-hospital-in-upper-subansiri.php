@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-arunachal-pradesh.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-arunachal-pradesh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Arunachal Pradesh &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 

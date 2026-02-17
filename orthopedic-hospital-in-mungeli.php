@@ -544,6 +544,7 @@
 
     <!-- Footer -->
     <?php include "components/hospital-districts-chhattisgarh.php"; ?>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-chhattisgarh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Chhattisgarh &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 
