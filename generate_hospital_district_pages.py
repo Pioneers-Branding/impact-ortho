@@ -187,20 +187,36 @@ def generate_district_links_component(state, files_list):
     # print(f"Generated component: {component_filename}")
 
 def link_districts_in_state_page(state_filename, state_slug):
-    component_include = f'<?php include "components/hospital-districts-{state_slug}.php"; ?>'
+    correct_component_include = f'<?php include "components/hospital-districts-{state_slug}.php"; ?>'
     
     with open(state_filename, 'r') as f:
         content = f.read()
     
-    # Avoid duplicate includes
-    if component_include in content:
-        return
-        
-    # Add before footer
+    # 1. Remove ANY hospital-districts include first (to clean up valid or invalid ones)
+    # We use a primitive way: explicit replacement or regex?
+    # Since we want to ensure ONLY the correct one exists, and in the right place.
+    # But wait, if we remove it, we might break the file if indentation is tricky.
+    
+    # Check for incorrect ones (e.g. copied from template)
+    # Common culprit seems to be "components/hospital-districts-maharashtra.php" if that was in template
+    # But generally, let's just look for the line and remove it if it's not the correct one.
+    
+    import re
+    # Pattern to find any hospital-districts include
+    # <?php include "components/hospital-districts-([a-z-]+).php"; ?>
+    
+    # We will replace any such include with EMPTY string first, then add the correct one.
+    # BE CAREFUL not to remove the CORRECT one if it's already there? 
+    # Actually, removing and re-adding ensures it's in the correct spot (before footer).
+    
+    # Remove all component includes of this type
+    content = re.sub(r'<\?php include "components/hospital-districts-[a-z-]+\.php"; \?>\s*', '', content)
+    
+    # 2. Add the correct component before footer
     target_str = '<?php include "components/footer.php"; ?>'
     
     if target_str in content:
-        new_content = content.replace(target_str, f"{component_include}\n\n    {target_str}")
+        new_content = content.replace(target_str, f"{correct_component_include}\n\n    {target_str}")
         with open(state_filename, 'w') as f:
             f.write(new_content)
         # print(f"Linked districts in {state_filename}")

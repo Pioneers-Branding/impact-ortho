@@ -543,11 +543,11 @@
     <?php include "components/state-hospital-links.php"; ?>
 
     <!-- Footer -->
-    <?php include "components/hospital-districts-telangana.php"; ?>
-<div class="text-center mt-4"><a href="orthopedic-hospital-in-telangana.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Telangana &rarr;</a></div>
+    <div class="text-center mt-4"><a href="orthopedic-hospital-in-telangana.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Telangana &rarr;</a></div>
+
+    <div class="text-center mt-4"><a href="orthopedic-hospital-in-hyderabad.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Hyderabad &rarr;</a></div>
 
     <?php include "components/hospital-districts-hyderabad.php"; ?>
-<div class="text-center mt-4"><a href="orthopedic-hospital-in-hyderabad.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Hyderabad &rarr;</a></div>
 
     <?php include "components/footer.php"; ?>
 
