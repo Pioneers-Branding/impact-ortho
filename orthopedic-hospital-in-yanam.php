@@ -5,19 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="https://www.impactorthocenter.com/photos/favicon.png" />
-    <title>Best Orthopedic Hospital in Yanam, Puducherry | Top Orthopedic Center Yanam - Impact Ortho Centre</title>
+    <title>Best Orthopedic Hospital in Yanam, Puducherry, Puducherry | Top Orthopedic Center Yanam - Impact Ortho Centre</title>
     <meta name="description"
-        content="Looking for the best orthopedic hospital in Yanam, Puducherry? Impact Ortho Centre offers world-class joint replacement, sports medicine & trauma care led by Dr. Ratnakar Rao." />
+        content="Looking for the best orthopedic hospital in Yanam, Puducherry, Puducherry? Impact Ortho Centre offers world-class joint replacement, sports medicine & trauma care led by Dr. Ratnakar Rao." />
     <meta name="keywords"
-        content="best orthopedic hospital in Yanam, Puducherry, top orthopedic center Puducherry, bone hospital Yanam, joint replacement hospital Puducherry, orthopedic surgery Yanam, knee replacement cost Yanam, sports injury hospital Puducherry, orthopedic hospital in Yanam, Puducherry" />
+        content="best orthopedic hospital in Yanam, Puducherry, Puducherry, top orthopedic center Puducherry, bone hospital Yanam, joint replacement hospital Puducherry, orthopedic surgery Yanam, knee replacement cost Yanam, sports injury hospital Puducherry, orthopedic hospital in Yanam, Puducherry, Puducherry" />
 
     <link rel="canonical" href="https://www.impactorthocenter.com/orthopedic-hospital-in-yanam.php" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Best Orthopedic Hospital in Yanam, Puducherry | Impact Ortho Centre" />
+    <meta property="og:title" content="Best Orthopedic Hospital in Yanam, Puducherry, Puducherry | Impact Ortho Centre" />
     <meta property="og:description"
-        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Yanam, Puducherry. Specializing in robotic joint replacement and sports medicine." />
+        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Yanam, Puducherry, Puducherry. Specializing in robotic joint replacement and sports medicine." />
     <meta property="og:url" content="https://www.impactorthocenter.com/orthopedic-hospital-in-yanam.php" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://impactorthocenter.com/photos/impact-doctor-about.webp" />
@@ -26,14 +26,14 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Best Orthopedic Hospital in Yanam, Puducherry | Impact Ortho Centre" />
+    <meta name="twitter:title" content="Best Orthopedic Hospital in Yanam, Puducherry, Puducherry | Impact Ortho Centre" />
     <meta name="twitter:description"
-        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Yanam, Puducherry. Specializing in robotic joint replacement and sports medicine." />
+        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Yanam, Puducherry, Puducherry. Specializing in robotic joint replacement and sports medicine." />
     <meta name="twitter:image" content="https://impactorthocenter.com/photos/impact-doctor-about.webp" />
 
     <!-- Geo Tags -->
     <meta name="geo.region" content="IN-TG" />
-    <meta name="geo.placename" content="Yanam" />
+    <meta name="geo.placename" content="Puducherry" />
     <meta name="geo.position" content="17.415639;78.413217" />
     <meta name="ICBM" content="17.415639, 78.413217" />
 
@@ -51,7 +51,7 @@
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Apollo Hospitals, Rd Number 72, opposite Bharatiya Vidya Bhavan School, Film Nagar",
-            "addressLocality": "Yanam",
+            "addressLocality": "Puducherry",
             "addressRegion": "Telangana",
             "postalCode": "500033",
             "addressCountry": "IN"
@@ -113,7 +113,7 @@
                                 World-Class Orthopedic Facility
                             </div>
                             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                                Best Orthopedic Hospital in Yanam, Puducherry | <span
+                                Best Orthopedic Hospital in Yanam, Puducherry, Puducherry | <span
                                     class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Impact
                                     Ortho Centre</span>
                             </h1>
@@ -121,7 +121,7 @@
 
                         <div class="space-y-4">
                             <p class="text-xl text-gray-700 leading-relaxed">
-                                Seeking the <strong>best orthopedic hospital in Yanam, Puducherry</strong>? Impact Ortho Centre is a
+                                Seeking the <strong>best orthopedic hospital in Yanam, Puducherry, Puducherry</strong>? Impact Ortho Centre is a
                                 renowned <strong>orthopedic center</strong> offering advanced
                                 treatments for joint pains, sports injuries, and complex trauma. Led by Dr. Ratnakar
                                 Rao, a pioneer in <strong>Robotic Joint Replacement</strong>, we ensure
@@ -238,7 +238,7 @@
                                 and sports injuries.
                             </p>
                             <p>
-                                As a premier <strong>bone hospital in Yanam, Puducherry</strong>, we combine compassion
+                                As a premier <strong>bone hospital in Yanam, Puducherry, Puducherry</strong>, we combine compassion
                                 with cutting-edge technology. Whether you need a <strong>knee replacement</strong>, hip
                                 surgery, or treatment for a complex fracture, our expertise ensures the highest
                                 standards of care under the guidance of Dr. Ratnakar Rao.
@@ -315,7 +315,7 @@
                         Comprehensive Orthopedic Treatments
                     </h2>
                     <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                        World-class orthopedic treatments offered by the best bone hospital in Yanam, Puducherry.
+                        World-class orthopedic treatments offered by the best bone hospital in Yanam, Puducherry, Puducherry.
                     </p>
                 </div>
 
@@ -488,7 +488,7 @@
                 <div class="max-w-3xl mx-auto space-y-4">
                     <!-- FAQ 1 -->
                     <div class="prose-faq border-b border-gray-200 pb-4">
-                        <h3 class="font-bold text-lg text-gray-900 mb-2">Who is the best orthopedic hospital in Yanam, Puducherry?
+                        <h3 class="font-bold text-lg text-gray-900 mb-2">Who is the best orthopedic hospital in Yanam, Puducherry, Puducherry?
                         </h3>
                         <p class="text-gray-600">Impact Ortho Centre is considered one of the best orthopedic hospitals
                             in
@@ -499,7 +499,7 @@
                     <div class="prose-faq border-b border-gray-200 pb-4">
                         <h3 class="font-bold text-lg text-gray-900 mb-2">What is the cost of knee replacement surgery in
                             Puducherry?</h3>
-                        <p class="text-gray-600">The cost of knee replacement in Yanam, Puducherry is significantly lower than in
+                        <p class="text-gray-600">The cost of knee replacement in Yanam, Puducherry, Puducherry is significantly lower than in
                             Western countries, often ranging from $4,000 to $8,000 depending on the implant type and
                             hospital facilities, compared to $40,000+ in the US.</p>
                     </div>
@@ -517,7 +517,7 @@
         <!-- CTA Section -->
         <section class="py-16 bg-[#1E97D9] text-white">
             <div class="max-w-4xl mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Consult the Best Bone Hospital in Yanam, Puducherry?</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Consult the Best Bone Hospital in Yanam, Puducherry, Puducherry?</h2>
                 <p class="text-xl text-blue-100 mb-8">
                     Get a personalized treatment plan and quote today. Experience world-class orthopedic care at Impact
                     Ortho Centre.
@@ -543,6 +543,8 @@
     <?php include "components/state-hospital-links.php"; ?>
 
     <!-- Footer -->
+    <?php include "components/hospital-districts-puducherry.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
 </body>

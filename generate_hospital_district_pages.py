@@ -82,6 +82,13 @@ def generate_district_pages():
             # Why Choose Maharashtra -> Why Choose Pune
             new_content = new_content.replace(f"Choose <span class=\"text-[#1E97D9]\">{state}</span>", f"Choose <span class=\"text-[#1E97D9]\">{district}</span>")
             
+            # Add District Links Component explicitly to District Page
+            component_include = f'<?php include "components/hospital-districts-{state_slug}.php"; ?>'
+            if component_include not in new_content:
+                target_str = '<?php include "components/footer.php"; ?>'
+                if target_str in new_content:
+                    new_content = new_content.replace(target_str, f"{component_include}\n\n    {target_str}")
+            
             with open(district_filename, 'w') as f:
                 f.write(new_content)
             

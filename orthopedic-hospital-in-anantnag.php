@@ -543,6 +543,8 @@
     <?php include "components/state-hospital-links.php"; ?>
 
     <!-- Footer -->
+    <?php include "components/hospital-districts-jammu-and-kashmir.php"; ?>
+
     <?php include "components/footer.php"; ?>
 
 </body>
