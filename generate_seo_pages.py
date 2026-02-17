@@ -261,7 +261,7 @@ def generate_pages():
     generate_links_component(
         hyd_links_html, 
         "hyderabad-links.php", 
-        "Serving Patients in Hyderabad", 
+        "Locations in Hyderabad", 
         "hydLocation"
     )
 
