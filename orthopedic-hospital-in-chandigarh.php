@@ -5,19 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="https://www.impactorthocenter.com/photos/favicon.png" />
-    <title>Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Top Orthopedic Center Chandigarh - Impact Ortho Centre</title>
+    <title>Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Top Orthopedic Center Chandigarh - Impact Ortho Centre</title>
     <meta name="description"
-        content="Looking for the best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh? Impact Ortho Centre offers world-class joint replacement, sports medicine & trauma care led by Dr. Ratnakar Rao." />
+        content="Looking for the best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh? Impact Ortho Centre offers world-class joint replacement, sports medicine & trauma care led by Dr. Ratnakar Rao." />
     <meta name="keywords"
-        content="best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, top orthopedic center Chandigarh, bone hospital Chandigarh, joint replacement hospital Chandigarh, orthopedic surgery Chandigarh, knee replacement cost Chandigarh, sports injury hospital Chandigarh, orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh" />
+        content="best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, top orthopedic center Chandigarh, bone hospital Chandigarh, joint replacement hospital Chandigarh, orthopedic surgery Chandigarh, knee replacement cost Chandigarh, sports injury hospital Chandigarh, orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh" />
 
     <link rel="canonical" href="https://www.impactorthocenter.com/orthopedic-hospital-in-chandigarh.php" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Impact Ortho Centre" />
+    <meta property="og:title" content="Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Impact Ortho Centre" />
     <meta property="og:description"
-        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh. Specializing in robotic joint replacement and sports medicine." />
+        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh. Specializing in robotic joint replacement and sports medicine." />
     <meta property="og:url" content="https://www.impactorthocenter.com/orthopedic-hospital-in-chandigarh.php" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://impactorthocenter.com/photos/impact-doctor-about.webp" />
@@ -26,9 +26,9 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Impact Ortho Centre" />
+    <meta name="twitter:title" content="Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | Impact Ortho Centre" />
     <meta name="twitter:description"
-        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh. Specializing in robotic joint replacement and sports medicine." />
+        content="Expert orthopedic care at Impact Ortho Centre, one of the best orthopedic hospitals in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh. Specializing in robotic joint replacement and sports medicine." />
     <meta name="twitter:image" content="https://impactorthocenter.com/photos/impact-doctor-about.webp" />
 
     <!-- Geo Tags -->
@@ -113,7 +113,7 @@
                                 World-Class Orthopedic Facility
                             </div>
                             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                                Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | <span
+                                Best Orthopedic Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh | <span
                                     class="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Impact
                                     Ortho Centre</span>
                             </h1>
@@ -121,7 +121,7 @@
 
                         <div class="space-y-4">
                             <p class="text-xl text-gray-700 leading-relaxed">
-                                Seeking the <strong>best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh</strong>? Impact Ortho Centre is a
+                                Seeking the <strong>best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh</strong>? Impact Ortho Centre is a
                                 renowned <strong>orthopedic center</strong> offering advanced
                                 treatments for joint pains, sports injuries, and complex trauma. Led by Dr. Ratnakar
                                 Rao, a pioneer in <strong>Robotic Joint Replacement</strong>, we ensure
@@ -238,7 +238,7 @@
                                 and sports injuries.
                             </p>
                             <p>
-                                As a premier <strong>bone hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh</strong>, we combine compassion
+                                As a premier <strong>bone hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh</strong>, we combine compassion
                                 with cutting-edge technology. Whether you need a <strong>knee replacement</strong>, hip
                                 surgery, or treatment for a complex fracture, our expertise ensures the highest
                                 standards of care under the guidance of Dr. Ratnakar Rao.
@@ -315,7 +315,7 @@
                         Comprehensive Orthopedic Treatments
                     </h2>
                     <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                        World-class orthopedic treatments offered by the best bone hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh.
+                        World-class orthopedic treatments offered by the best bone hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh.
                     </p>
                 </div>
 
@@ -488,7 +488,7 @@
                 <div class="max-w-3xl mx-auto space-y-4">
                     <!-- FAQ 1 -->
                     <div class="prose-faq border-b border-gray-200 pb-4">
-                        <h3 class="font-bold text-lg text-gray-900 mb-2">Who is the best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh?
+                        <h3 class="font-bold text-lg text-gray-900 mb-2">Who is the best orthopedic hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh?
                         </h3>
                         <p class="text-gray-600">Impact Ortho Centre is considered one of the best orthopedic hospitals
                             in
@@ -499,7 +499,7 @@
                     <div class="prose-faq border-b border-gray-200 pb-4">
                         <h3 class="font-bold text-lg text-gray-900 mb-2">What is the cost of knee replacement surgery in
                             Chandigarh?</h3>
-                        <p class="text-gray-600">The cost of knee replacement in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh is significantly lower than in
+                        <p class="text-gray-600">The cost of knee replacement in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh is significantly lower than in
                             Western countries, often ranging from $4,000 to $8,000 depending on the implant type and
                             hospital facilities, compared to $40,000+ in the US.</p>
                     </div>
@@ -517,7 +517,7 @@
         <!-- CTA Section -->
         <section class="py-16 bg-[#1E97D9] text-white">
             <div class="max-w-4xl mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Consult the Best Bone Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh?</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Consult the Best Bone Hospital in Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh, Chandigarh?</h2>
                 <p class="text-xl text-blue-100 mb-8">
                     Get a personalized treatment plan and quote today. Experience world-class orthopedic care at Impact
                     Ortho Centre.
@@ -543,8 +543,10 @@
     <?php include "components/state-hospital-links.php"; ?>
 
     <!-- Footer -->
+    <div class="text-center mt-4"><a href="orthopedic-hospital-in-chandigarh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Chandigarh, Chandigarh &rarr;</a></div>
+<div class="text-center mt-4"><a href="orthopedic-hospital-in-chandigarh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Chandigarh, Chandigarh, Chandigarh &rarr;</a></div>
+
     <div class="text-center mt-4"><a href="orthopedic-hospital-in-chandigarh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Chandigarh &rarr;</a></div>
-<div class="text-center mt-4"><a href="orthopedic-hospital-in-chandigarh.php" class="text-blue-600 hover:text-blue-800 font-medium no-underline hover:underline transition-all">View All Hospitals in Chandigarh, Chandigarh &rarr;</a></div>
 
     <?php include "components/hospital-districts-chandigarh.php"; ?>
 
