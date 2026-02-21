@@ -178,6 +178,4 @@
 <script src="assets/js/main.js"></script>
 
 
-<script defer data-active data-widget-type="group" data-person="d7b9c86e-0b04-462e-b726-34ffb86610c1"
-    src="https://app.wacrs.com/install-widget/bundle.js?key=ba48163b-d301-4764-9bbe-08bc440922e2"></script>
-<div data-active id="whatapp-people-widget-d7b9c86e-0b04-462e-b726-34ffb86610c1"></div>
+<script defer src="https://app.wacrs.com/install-widget/bundle.js?key=ba48163b-d301-4764-9bbe-08bc440922e2"></script>
