@@ -91,8 +91,8 @@
                             Pain</a></li>
                     <li><a href="osteoporosis.php"
                             class="text-gray-300 hover:text-cyan-400 transition-colors">Osteoporosis</a></li>
-                    <li><a href="shoulder-pain.php"
-                            class="text-gray-300 hover:text-cyan-300 transition-colors">Shoulder Pain</a></li>
+                    <li><a href="shoulder-pain.php" class="text-gray-300 hover:text-cyan-300 transition-colors">Shoulder
+                            Pain</a></li>
                 </ul>
             </div>
 
@@ -178,4 +178,6 @@
 <script src="assets/js/main.js"></script>
 
 
-<script defer src="https://app.wacrs.com/install-widget/bundle.js?key=1e73b390-e8fe-4792-98bb-248c6f950436"></script>
+<script defer data-active data-widget-type="group" data-person="d7b9c86e-0b04-462e-b726-34ffb86610c1"
+    src="https://app.wacrs.com/install-widget/bundle.js?key=ba48163b-d301-4764-9bbe-08bc440922e2"></script>
+<div data-active id="whatapp-people-widget-d7b9c86e-0b04-462e-b726-34ffb86610c1"></div>
