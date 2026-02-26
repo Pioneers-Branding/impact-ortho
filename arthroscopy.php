@@ -19,6 +19,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/arthroscopy.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

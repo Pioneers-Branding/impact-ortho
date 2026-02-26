@@ -20,6 +20,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/osteoporosis.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

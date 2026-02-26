@@ -20,6 +20,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/foot-ankle-pain.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

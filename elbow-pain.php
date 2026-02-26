@@ -18,6 +18,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/elbow-pain.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

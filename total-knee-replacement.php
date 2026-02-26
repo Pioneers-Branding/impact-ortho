@@ -23,6 +23,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/total-knee-replacement.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

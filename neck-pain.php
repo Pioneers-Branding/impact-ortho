@@ -18,6 +18,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/neck-pain.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

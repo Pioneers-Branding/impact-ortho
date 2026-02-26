@@ -21,6 +21,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/domestic-patients.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

@@ -20,6 +20,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/total-hip-replacement.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

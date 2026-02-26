@@ -12,6 +12,7 @@
         content="best robotic knee replacement in india, robotic knee replacement in india, robotic knee replacement surgery in india, robotic surgery for knee replacement in india" />
 
 
+    <link rel="canonical" href="https://www.impactorthocenter.com/robotic-knee-replacement.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

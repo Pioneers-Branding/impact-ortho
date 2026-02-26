@@ -18,6 +18,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/hand-and-wrist-pain.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

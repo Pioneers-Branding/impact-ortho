@@ -23,6 +23,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/arthritis.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 

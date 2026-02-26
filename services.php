@@ -18,6 +18,7 @@
 
 
     
+    <link rel="canonical" href="https://www.impactorthocenter.com/services.php" />
     <?php include "components/header-link.php"; ?>
 </head>
 
