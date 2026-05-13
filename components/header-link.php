@@ -5,3 +5,5 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="https://unpkg.com/feather-icons"></script>
 <meta name="google-site-verification" content="p7Ynwds2whaVWEzDNGgGLzh9953dBvuH6UHKTk30IkA" />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
+     crossorigin="anonymous"></script>
