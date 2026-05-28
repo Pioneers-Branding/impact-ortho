@@ -1,3 +1,6 @@
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
+     crossorigin="anonymous"></script>
+
 <!-- Header -->
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
