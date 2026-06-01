@@ -13,9 +13,6 @@
 
     <link rel="canonical" href="https://www.impactorthocenter.com/" />
     <meta name="robots" content="index, follow" />
-    <script defer
-        src="https://app.wacrs.com/install-widget/bundle.js?key=ba48163b-d301-4764-9bbe-08bc440922e2"></script>
-
     <!-- Open Graph -->
     <meta property="og:title" content="Best Orthopedic Hospital in India | Impact Ortho Centre" />
     <meta property="og:description"
