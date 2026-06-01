@@ -1,3 +1,94 @@
+<!-- ========== STICKY BOTTOM AD BANNER ========== -->
+<div id="sticky-ad-banner" style="
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 30vh;
+    min-height: 120px;
+    max-height: 300px;
+    background: #fff;
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.18);
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+    border-top: 2px solid #1E97D9;
+">
+    <!-- Close button -->
+    <button
+        id="sticky-ad-close-btn"
+        onclick="closeStickyAd()"
+        aria-label="Close advertisement"
+        style="
+            position: absolute;
+            top: 6px;
+            right: 10px;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(30,151,217,0.12);
+            border: 1.5px solid #1E97D9;
+            color: #1E97D9;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100000;
+            line-height: 1;
+            transition: background 0.2s, transform 0.2s;
+        "
+        onmouseover="this.style.background='#1E97D9';this.style.color='#fff';this.style.transform='scale(1.1)'"
+        onmouseout="this.style.background='rgba(30,151,217,0.12)';this.style.color='#1E97D9';this.style.transform='scale(1)'"
+    >&times;</button>
+    <!-- Ad label -->
+    <div style="text-align:center;font-size:10px;color:#aaa;letter-spacing:1px;padding-top:4px;flex-shrink:0;">ADVERTISEMENT</div>
+    <!-- AdSense unit -->
+    <div style="flex:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:0 8px 4px;">
+        <ins class="adsbygoogle"
+             style="display:block;width:100%;height:100%;"
+             data-ad-client="ca-pub-4910239000711715"
+             data-ad-slot="5541132135"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+    </div>
+</div>
+
+<script>
+(function(){
+    // Only show if not dismissed this session
+    if (!sessionStorage.getItem('stickyAdClosed')) {
+        // Slide in after short delay
+        var banner = document.getElementById('sticky-ad-banner');
+        if (banner) {
+            setTimeout(function(){
+                banner.style.transform = 'translateY(0)';
+                // Push AdSense ad after visible
+                try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e){}
+            }, 800);
+        }
+    } else {
+        var banner = document.getElementById('sticky-ad-banner');
+        if (banner) banner.style.display = 'none';
+    }
+})();
+
+function closeStickyAd() {
+    var banner = document.getElementById('sticky-ad-banner');
+    if (banner) {
+        banner.style.transform = 'translateY(100%)';
+        setTimeout(function(){ banner.style.display = 'none'; }, 420);
+    }
+    sessionStorage.setItem('stickyAdClosed', '1');
+}
+</script>
+<!-- ========== END STICKY BOTTOM AD BANNER ========== -->
+
 <!-- Footer -->
 <footer class="bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
