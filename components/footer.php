@@ -68,7 +68,7 @@
     if (banner) {
         setTimeout(function(){
             banner.style.transform = 'translateY(0)';
-        }, 800);
+        }, 5000);
     }
 })();
 
