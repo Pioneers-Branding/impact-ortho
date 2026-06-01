@@ -11,11 +11,9 @@
     background: #fff;
     box-shadow: 0 -4px 24px rgba(0,0,0,0.18);
     z-index: 99999;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: stretch;
-    transform: translateY(100%);
-    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
     border-top: 2px solid #1E97D9;
 ">
     <!-- Close button -->
@@ -49,7 +47,7 @@
     <!-- Ad label -->
     <div style="text-align:center;font-size:10px;color:#aaa;letter-spacing:1px;padding-top:4px;flex-shrink:0;">ADVERTISEMENT</div>
     <!-- AdSense unit -->
-    <div style="flex:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:0 8px 4px;">
+    <div style="flex:1;overflow:hidden;padding:2px 4px 4px;">
         <ins class="adsbygoogle"
              style="display:block;width:100%;height:100%;"
              data-ad-client="ca-pub-4910239000711715"
@@ -61,26 +59,38 @@
 
 <script>
 (function(){
-    // Only show if not dismissed this session
-    if (!sessionStorage.getItem('stickyAdClosed')) {
-        // Slide in after short delay
+    // Don't show if already dismissed this session
+    if (sessionStorage.getItem('stickyAdClosed')) return;
+
+    function showStickyAd() {
         var banner = document.getElementById('sticky-ad-banner');
-        if (banner) {
-            setTimeout(function(){
-                banner.style.transform = 'translateY(0)';
-                // Push AdSense ad after visible
-                try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e){}
-            }, 800);
-        }
+        if (!banner) return;
+
+        // Make visible first (flex), then push ad
+        banner.style.display = 'flex';
+
+        // Small delay so browser paints the element before AdSense measures it
+        setTimeout(function(){
+            try {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+            } catch(e) {}
+        }, 200);
+    }
+
+    // Fire after full page load so AdSense library is ready
+    if (document.readyState === 'complete') {
+        setTimeout(showStickyAd, 600);
     } else {
-        var banner = document.getElementById('sticky-ad-banner');
-        if (banner) banner.style.display = 'none';
+        window.addEventListener('load', function(){
+            setTimeout(showStickyAd, 600);
+        });
     }
 })();
 
 function closeStickyAd() {
     var banner = document.getElementById('sticky-ad-banner');
     if (banner) {
+        banner.style.transition = 'transform 0.4s cubic-bezier(0.4,0,0.2,1)';
         banner.style.transform = 'translateY(100%)';
         setTimeout(function(){ banner.style.display = 'none'; }, 420);
     }
