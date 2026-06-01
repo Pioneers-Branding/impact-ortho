@@ -1,4 +1,7 @@
+<?php if (basename($_SERVER['PHP_SELF']) !== 'index.php') : ?>
 <!-- ========== STICKY BOTTOM AD BANNER ========== -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
+     crossorigin="anonymous"></script>
 <div id="sticky-ad-banner" style="
     position: fixed;
     bottom: 0;
@@ -61,14 +64,11 @@
 
 <script>
 (function(){
-    // Only show if not dismissed this session
     if (!sessionStorage.getItem('stickyAdClosed')) {
-        // Slide in after short delay
         var banner = document.getElementById('sticky-ad-banner');
         if (banner) {
             setTimeout(function(){
                 banner.style.transform = 'translateY(0)';
-                // Push AdSense ad after visible
                 try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e){}
             }, 800);
         }
@@ -88,6 +88,7 @@ function closeStickyAd() {
 }
 </script>
 <!-- ========== END STICKY BOTTOM AD BANNER ========== -->
+<?php endif; ?>
 
 <!-- Footer -->
 <footer class="bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900 text-white">
