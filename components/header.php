@@ -1,5 +1,3 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
-     crossorigin="anonymous"></script>
 
 <!-- Header -->
 <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
@@ -321,11 +319,6 @@
             </div>
         </div>
     </div>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
-     crossorigin="anonymous"></script>
 </header>
 
 <meta name="google-site-verification" content="p7Ynwds2whaVWEzDNGgGLzh9953dBvuH6UHKTk30IkA" />
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
-     crossorigin="anonymous"></script>
