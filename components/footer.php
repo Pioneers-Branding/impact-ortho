@@ -1,7 +1,5 @@
 <?php if (basename($_SERVER['PHP_SELF']) !== 'index.php') : ?>
 <!-- ========== STICKY BOTTOM AD BANNER ========== -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
-     crossorigin="anonymous"></script>
 <div id="sticky-ad-banner" style="
     position: fixed;
     bottom: 0;
@@ -52,13 +50,16 @@
     <!-- Ad label -->
     <div style="text-align:center;font-size:10px;color:#aaa;letter-spacing:1px;padding-top:4px;flex-shrink:0;">ADVERTISEMENT</div>
     <!-- AdSense unit -->
-    <div style="flex:1;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:0 8px 4px;">
+    <div style="flex:1;overflow:hidden;padding:0 8px 4px;">
         <ins class="adsbygoogle"
-             style="display:block;width:100%;height:100%;"
+             style="display:block;"
              data-ad-client="ca-pub-4910239000711715"
              data-ad-slot="5541132135"
              data-ad-format="auto"
              data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </div>
 </div>
 
@@ -69,7 +70,6 @@
         if (banner) {
             setTimeout(function(){
                 banner.style.transform = 'translateY(0)';
-                try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e){}
             }, 800);
         }
     } else {
