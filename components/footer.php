@@ -47,8 +47,6 @@
         onmouseover="this.style.background='#1E97D9';this.style.color='#fff';this.style.transform='scale(1.1)'"
         onmouseout="this.style.background='rgba(30,151,217,0.12)';this.style.color='#1E97D9';this.style.transform='scale(1)'"
     >&times;</button>
-    <!-- Ad label -->
-    <div style="text-align:center;font-size:10px;color:#aaa;letter-spacing:1px;padding-top:4px;flex-shrink:0;">ADVERTISEMENT</div>
     <!-- AdSense unit -->
     <div style="flex:1;overflow:hidden;padding:0 8px 4px;">
         <ins class="adsbygoogle"
@@ -64,27 +62,23 @@
 </div>
 
 <script>
+// Always show on every page load & reload — no sessionStorage
 (function(){
-    if (!sessionStorage.getItem('stickyAdClosed')) {
-        var banner = document.getElementById('sticky-ad-banner');
-        if (banner) {
-            setTimeout(function(){
-                banner.style.transform = 'translateY(0)';
-            }, 800);
-        }
-    } else {
-        var banner = document.getElementById('sticky-ad-banner');
-        if (banner) banner.style.display = 'none';
+    var banner = document.getElementById('sticky-ad-banner');
+    if (banner) {
+        setTimeout(function(){
+            banner.style.transform = 'translateY(0)';
+        }, 800);
     }
 })();
 
+// Close only hides for this page visit — reloading or navigating brings it back
 function closeStickyAd() {
     var banner = document.getElementById('sticky-ad-banner');
     if (banner) {
         banner.style.transform = 'translateY(100%)';
         setTimeout(function(){ banner.style.display = 'none'; }, 420);
     }
-    sessionStorage.setItem('stickyAdClosed', '1');
 }
 </script>
 <!-- ========== END STICKY BOTTOM AD BANNER ========== -->
