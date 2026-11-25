@@ -22,6 +22,7 @@
     
     <link rel="canonical" href="https://www.impactorthocenter.com/total-hip-replacement.php" />
     <?php include "components/header-link.php"; ?>
+    <?php $page_slug = "total-hip-replacement"; include "components/service-schema.php"; ?>
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">
@@ -480,6 +481,7 @@
                 </div>
             </div>
         </section>
+        <?php include "components/international-patients-block.php"; ?>
     </main>
 
     <!-- Footer -->

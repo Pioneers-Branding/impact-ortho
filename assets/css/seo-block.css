@@ -1,0 +1,53 @@
+/*
+ * Companion utilities for the SEO / international-patient block.
+ *
+ * assets/css/style.css is a PURGED Tailwind build and the repository contains
+ * no tailwind.config.js, no postcss config and no package.json, so it cannot be
+ * regenerated. Any Tailwind class not already used somewhere in the site at
+ * build time is therefore absent from it and renders as nothing.
+ *
+ * These are the exact utilities used by components/international-patients-block.php
+ * that were missing from that build, copied from Tailwind's own definitions so
+ * they behave identically. Delete this file the day the Tailwind build is
+ * restored and these classes come back in the main stylesheet.
+ */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.tabular-nums { font-variant-numeric: tabular-nums; }
+
+.overflow-x-auto { overflow-x: auto; }
+
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  border-top-width: 1px;
+  border-bottom-width: 0;
+}
+
+.divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #e5e7eb;
+}
+
+.last\:border-0:last-child { border-width: 0; }
+
+.tracking-widest { letter-spacing: 0.1em; }
+
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+.gap-5 { gap: 1.25rem; }
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) { margin-top: 1.25rem; }
+
+.w-9 { width: 2.25rem; }
+
+.mb-14 { margin-bottom: 3.5rem; }
+.mt-14 { margin-top: 3.5rem; }

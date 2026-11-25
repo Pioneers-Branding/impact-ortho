@@ -22,6 +22,7 @@
     
     <link rel="canonical" href="https://www.impactorthocenter.com/knee-pain.php" />
     <?php include "components/header-link.php"; ?>
+    <?php $page_slug = "knee-pain"; include "components/service-schema.php"; ?>
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">
@@ -482,6 +483,7 @@
                 </div>
             </div>
         </section>
+        <?php include "components/international-patients-block.php"; ?>
     </main>
 
     

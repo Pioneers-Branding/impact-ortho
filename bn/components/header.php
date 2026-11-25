@@ -320,4 +320,21 @@
     </div>
 </header>
 
+<!-- Google Publisher Tag Header Ad -->
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23399364572/st', [300, 250], 'div-gpt-ad-1795575127421-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
+<!-- /23399364572/st -->
+<div id='div-gpt-ad-1795575127421-0' style='min-width: 300px; min-height: 250px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1795575127421-0'); });
+  </script>
+</div>
+
+
 <meta name="google-site-verification" content="p7Ynwds2whaVWEzDNGgGLzh9953dBvuH6UHKTk30IkA" />

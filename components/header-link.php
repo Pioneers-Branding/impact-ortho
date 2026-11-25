@@ -3,7 +3,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
 <link rel="stylesheet" href="assets/css/style.css">
-<script src="https://unpkg.com/feather-icons"></script>
+<link rel="stylesheet" href="assets/css/seo-block.css">
+<script defer src="https://unpkg.com/feather-icons"></script>
 <meta name="google-site-verification" content="p7Ynwds2whaVWEzDNGgGLzh9953dBvuH6UHKTk30IkA" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4910239000711715"
      crossorigin="anonymous"></script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/23399364572/st', [300, 250], 'div-gpt-ad-1795575127421-0').addService(googletag.pubads());
+    googletag.enableServices();
+  });
+</script>
